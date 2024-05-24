@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Profile</title>
+  <link rel="stylesheet" href="profile.css">
+  <meta charset="utf-8">
+  <script src="profile.js"></script>
+</head>
+
+<body id="main" class="body1">
+  <header>
+    <h1>My Profile</h1>
+  </header>
+  <main>
+    <section id="user-info" class="section1">
+      <h2>User Information</h2>
+      <ul>
+        <li id="email"><strong>Email:</strong></li>
+        <li id="username"><strong>Username:</strong></li>
+      </ul>
+      <button id="switch-to-enroll">Enrolled Course</button>
+      <button id="mode">Switch displaying mode</button>
+      <button id="history">Show your transaction history</button>
+      <button id="logout-1" class="log-out">Log out</button>
+    </section>
+    <section id="course" class="hidden">
+      <h1>Your Enrolled Courses</h1>
+      <input id='search-term' type='text'>
+      <button id='search-btn' disabled>search</button>
+      <br>
+      <input id="code" type="number">
+      <button id="complete">Complete</button>
+      <div>Input the transaction code to complete a course</div>
+      <ul id="enrolled-course">
+      </ul>
+      <button id="find-tf-course">Find TOFEL course</button>
+      <button id="find-gre-course">Find GRE course</button>
+      <button id="back-user-info">Go back</button>
+      <button id="mode1">Switch displaying mode</button>
+      <button id="logout-2" class="log-out">Log out</button>
+    </section>
+    <section id="transaction" class="hidden">
+      <ol>
+      </ol>
+      <button id="go-back">Back to profile</button>
+    </section>
+    <section id="confirmation" class="hidden">
+      <p>Are you sure that you want to drop this course?</p>
+      <button id="yes">Yes</button>
+      <button id="no">No</button>
+    </section>
+    <section id="error" class="hidden">
+      <p>Please refresh the page!</p>
+    </section>
+  </main>
+</body>
+
+</html>

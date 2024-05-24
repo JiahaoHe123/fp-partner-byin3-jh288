@@ -1,0 +1,101 @@
+#math1, #math2, #grammar1, #grammar2, .hidden {
+  display: none;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+section button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+section.big button:disabled {
+  background-color: lightgray;
+  color: darkgray;
+}
+
+.notification {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.big {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+section.big section {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+section.big img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+section.big button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+}
+
+footer a {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+footer a:hover {
+  color: #0066cc; /* Change the color on hover */
+}
+
+#error {
+  font-size: large;
+  color: red;
+  text-align: center;
+}
